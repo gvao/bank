@@ -16,13 +16,14 @@
     <section id="expense">
 
         <form class="expense__form container">
-            <input type="text" name="title" id="title" class="expense__title input">
-            <input type="number" name="value" id="value" class="expense__value input" step="0.05" >
+            <input required type="text" name="title" id="title" class="expense__title input" autofocus>
+            <input required type="number" name="value" id="value" class="expense__value input" step="0.05">
+            <input type="checkbox" class="expense__type" name="isCredit" id="isCredit">
             <button type="submit" class="button">adicionar</button>
         </form>
-        
+
         <ul class="expense__list container">
-            <li class="expense__item">
+            <!-- <li class="expense__item">
                 <div class="expense__date">
                     <span class="expense__date__date">15/jan/2025</span>
                     <span class="expense__date__time">12:36</span>
@@ -43,8 +44,10 @@
                     <p class="expense__value">R$ 400,00</p>
                 </div>
                 <span class="expense__type" data-expense-type="debit">Debito</span>
-            </li>
+            </li> -->
         </ul>
+
+        <script src="scripts/expense/index.js" type="module"></script>
     </section>
 
 </body>
