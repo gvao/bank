@@ -1,5 +1,45 @@
 :root {
-    /* color */
-    --bg-white-1: #e1e1e1;
-    --bg-white: #fff;
+  /* Colors */
+  --clr-white: #fff;
+  --clr-black: #000; 
+  --clr-dark-gray: #333; 
+  --clr-gray: #666; 
+  --clr-light-gray: #999; 
+  --clr-blue: #007bff; 
+  --clr-green: #28a745; 
+  --clr-red: #dc3545; 
+  --clr-orange: #fd7e14; 
+  --clr-purple: #6f42c1;
+  --clr-cyan: #17a2b8;
+  --clr-teal: #20c997;
+
+  /* Backgrounds */
+  --bg-white: #fff;
+  --bg-light-gray: #f8f9fa;
+  --bg-gray: #e9ecef;
+  --bg-dark-gray: #343a40;
+  --bg-blue: #e0f2ff;
+
+  /* Fonts */
+  --font-family-base: 'Arial', 'Helvetica', sans-serif;
+  --font-family-heading: 'Arial', 'Helvetica', sans-serif;
+
+  /* Spacing */
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 4rem;
+
+  /* Shadows */
+  --shadow-s: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.125);
+  --shadow-m: 0 0.25rem 0.5rem rgba(0, 0, 0);
+  /* shadows for components */
+  --shadow-s-inset: inset 0px 0px rgba(0, 0, 0, 0.125; /* inset */
+  --shadow-m-inset: inset 0px 0px rgba(0, -0px; /* inset */
+  shadow-background-inset: inset 0px 0px rgba(0, 0, rgba(0, 0, 0, 0.15); /* inset */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  
 }
