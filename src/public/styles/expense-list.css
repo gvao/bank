@@ -1,0 +1,36 @@
+.expense__list {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+
+    .expense__item {
+        background-color: var(--bg-white);
+        padding: .8rem 1.6rem;
+        border-radius: .4rem;
+        box-shadow: .1rem .1rem .2rem 0 rgba(0, 0, 0, .3);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        .expense__type {
+            position: absolute;
+            top: -0.4rem;
+            right: -0.4rem;
+            background-color: red;
+            font-size: medium;
+            padding: .2rem .4rem;
+            opacity: .7;
+            border-radius: .4rem;
+
+            &[data-expense-type="credit"] {
+                background-color: green;
+            }
+        };
+
+        .expense__date {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
