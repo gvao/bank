@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+
+</head>
+
+<body>
+    <h1>Bank</h1>
+
+    <section id="expense">
+
+        <form class="expense__form container">
+            <input type="text" name="title" id="title" class="expense__title">
+            <input type="number" name="value" id="value" class="expense__value">
+            <button type="submit">adicionar</button>
+        </form>
+        
+        <ul class="expense__list container">
+            <li class="expense__item">
+                <div class="expense__date">
+                    <span class="expense__date__date">15/jan/2025</span>
+                    <span class="expense__date__time">12:36</span>
+                </div>
+                <div>
+                    <h2 class="expense__title">Salario</h2>
+                    <p class="expense__value">R$ 1900,00</p>
+                </div>
+                <span class="expense__type" data-expense-type="credit">Crédito</span>
+            </li>
+            <li class="expense__item">
+                <div class="expense__date">
+                    <span class="expense__date__date">15/jan/2025</span>
+                    <span class="expense__date__time">12:36</span>
+                </div>
+                <div>
+                    <h2 class="expense__title">Pensão</h2>
+                    <p class="expense__value">R$ 400,00</p>
+                </div>
+                <span class="expense__type" data-expense-type="debit">Debito</span>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
