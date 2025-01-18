@@ -1,0 +1,9 @@
+.expense__form {
+    display: flex;
+    gap: .4rem;
+    flex-wrap: wrap;
+
+    &>* {
+        flex-grow: 1
+    }
+}
