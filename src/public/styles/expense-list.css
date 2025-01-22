@@ -26,7 +26,7 @@
             &[data-expense-type="credit"] {
                 background-color: green;
             }
-        };
+        }
 
         .expense__date {
             display: flex;

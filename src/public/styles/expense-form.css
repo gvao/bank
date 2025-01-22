@@ -6,4 +6,21 @@
     &>* {
         flex-grow: 1
     }
+
+    .expense__type {
+        padding: .8rem 1.6rem;
+        cursor: pointer;
+        border: .2rem solid rgb(255, 129, 129);
+        border-radius: .4rem;
+        opacity: .6;
+    }
+
+    .checkbox {
+        display: none;
+    }
+    
+    .checkbox:checked~.expense__type {
+        opacity: 1;
+        border-color: rgb(0, 128, 0, .5);
+    }
 }
